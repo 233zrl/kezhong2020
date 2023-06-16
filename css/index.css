@@ -1,0 +1,258 @@
+    /* 通配符选择器 */
+    * {
+        /* 外边距：数值 单位 */
+        margin: 0px;
+
+        /* 背景 ： 颜色代码 */
+        background: #e8e8e869;
+    }
+
+    body {
+        /* background: #b7b7b75f; */
+        background: url(img\bg.png);
+    }
+
+    img {
+        /* 文档居中 */
+        text-align: center;
+    }
+    .p{
+        text-align: center;
+    }
+    .imggg1{
+        width: 35%;
+    }
+    .img1 {
+        height: 15vh;
+    }
+
+    /* flex布局 */
+    .flex {
+        /* flex布局 */
+        display: flex;
+    }
+
+    /* 顶端 */
+    .div1 {
+        /* 元素高度：数值 单位 */
+        height: 5vh;
+        border: solid 0.5px rgb(110, 110, 110);
+    }
+
+    .div1:hover {
+        border: #e9e9e9 0.5px solid;
+    }
+
+    /* 顶端2 */
+    .div2 {
+        /* 元素高度：数值 单位 */
+        height: 20vh;
+        border: solid 0.5px rgb(110, 110, 110);
+        margin-bottom: 8px;
+    }
+
+    /* 顶端2校徽 */
+    .div2>.div3 {
+        /* 元素宽度：数值 单位 */
+        width: 40vh;
+        border: solid 0.5px rgb(110, 110, 110);
+    }
+
+    .div2>.div3:hover {
+        border: #e9e9e9 0.5px solid;
+    }
+
+    /* 顶端2感谢 */
+    .div2>.div4 {
+        /* 元素宽度：数值 单位 */
+        width: 100%;
+        border: solid 0.5px rgb(110, 110, 110);
+    }
+
+    .div2>.div4:hover {
+        border: #e9e9e9 0.5px solid;
+    }
+
+    /* 下半内容 */
+    .div5 {
+        /* 元素高度：数值 单位 */
+        height: 65vh;
+        border: solid 0.5px rgb(110, 110, 110);
+    }
+
+    /* 左方长内容栏 */
+    .div5>.div6 {
+        /* 元素宽度：数值 单位 */
+        width: 30vh;
+        overflow-y: auto;
+    }
+
+    /* 长内容块 */
+    .div5>.div6>div {
+        /* 元素高度：数值 单位 */
+        height: 20vh;
+        /* 下外边距：数值 单位？ */
+        margin-bottom: 8px;
+        margin-left: 5px;
+        border: solid 0.5px rgb(110, 110, 110);
+        border-radius: 1vh;
+    }
+
+    .div5>.div6>div:active {
+        box-shadow: 2px 2px 5px #000 inset;
+    }
+    .div5>.div6>div:hover{
+        border: #1e1e1e 2px solid;
+    }
+
+    /* 右方整体 */
+    .div5>.div7 {
+        /* 元素宽度：数值 单位 */
+        width: 100%;
+        /* 元素高度：数值 单位 */
+        height: 65vh;
+        padding-left: 8px;
+
+    }
+
+    /* 上半宽内容栏 */
+    .div5>.div7>.div8 {
+        /* 元素高度：数值 单位 */
+        height: calc(35vh - 1px);
+        padding-top: 1px;
+        background: #e9e9e9;
+        border: solid 0.5px rgb(110, 110, 110);
+        overflow-y: auto;
+    }
+
+    .div5>.div7>.div8>div {
+        /* 元素高度：数值 单位 */
+        height: 5vh;
+        /* 下外边距：数值 单位？ */
+        margin-bottom: 8px;
+        margin-left: 1px;
+        border: solid 0.5px rgb(110, 110, 110);
+
+    }
+
+    .div8>div>button {
+        border: #b7b7b7 0.5px solid;
+        width: 100%;
+        height: 5vh;
+        text-align: left;
+    }
+
+    .div8>div>button:active {
+
+        color: rgb(35, 35, 35);
+        box-shadow: 2px 2px 5px #000 inset;
+    }
+.div8>div>button:hover{
+    border: #1e1e1e 2px solid;
+}
+    /* 下半游戏区 */
+    .div5>.div7>.div9 {
+        /* 元素高度：数值 单位 */
+        height: calc(30vh - 10px);
+        border: solid 0.5px rgb(110, 110, 110);
+        margin-top: 8px;
+    }
+    .div5>.div7>.div9:hover{
+        height: 100vh;
+    }
+    .div5>.div7>.div9>iframe:hover{
+        position: absolute;
+         height: 80vh;
+        width: 100%;
+    }
+    
+
+    .bingdu {
+        position: absolute;
+        width: 25vh;
+        height: 10vh;
+        border-radius: 8px;
+        border: #000 solid 0.5px;
+    }
+
+    #bingdu1 {
+        top: 50vh;
+        left: 35vh;
+    }
+
+    #bingdu2 {
+        top: 70vh;
+        left: 60vh;
+    }
+
+    #bingdu3 {
+        top: 80vh;
+        left: 10vh;
+    }
+
+    .dialog {
+        position: absolute;
+        overflow-x: hidden;
+        width: 80%;
+        height: 80vh;
+        top: calc(50vh - 40vh);
+        left: calc(50vw - 40vw);
+        /* animation: zhankai 3s infinite ; */
+    }
+
+    dialog div {
+        width: 75vw;
+        height: 75vh;
+        position: absolute;
+        top: calc(50vh - 45vh);
+        left: calc(50vw - 45vw);
+        background: #cbcbcb34;
+        border: #141414 solid 0.5px;
+        overflow: auto;
+    }
+
+    .span1{
+        background: #4c00ff;
+        color: white;
+    }
+    .span2{
+        color: #f80000;
+    }
+    .span3{
+        background: #000;
+    }
+    .span3:hover{
+        background: #00000000;
+    }
+    .spans{
+      font-size: 14px;
+    }
+
+    /* @keyframes zhannkai {
+        0%{
+            width: 1%;
+        }
+        25%{
+            width: 100%;
+        }
+        100%{
+            width: 100%;
+            height: 100%;
+        }
+    } */
+
+    @media screen and (max-width : 1199px) {
+        .div5{
+            display: block;
+            height: auto;
+        }
+       .div6{
+        width: 80%;
+        overflow: hidden;
+        height: 50vh;
+       }
+        .div6>div{
+            width: 95%;
+        }
+        
+    }
